@@ -1,0 +1,20 @@
+.logo-div{
+    margin-top: 17px;
+    &__span{
+        font-family: $montserrat-font;
+        color: $logo-color;
+        font-size: 30px;
+    }
+}
+.header-list{
+   margin-left: 629px;
+   margin-top: -26px;
+   gap: 55px;
+   &__link{
+    color: $logo-color;
+    font-family: $montserrat-font;
+    &:hover{
+    color: $menu-link-color;
+    }
+   }
+}

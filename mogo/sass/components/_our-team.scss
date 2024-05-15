@@ -1,0 +1,26 @@
+.our-team-paragraph{
+    text-align: center;
+    margin-top: 45px;
+    color: $paragraph-color;
+}
+.our-team-list{
+    padding: 0;
+    gap: 28px;
+    margin-top: 27px;
+    &__title{
+        font-family: $montserrat-font;
+        font-size: 14px;
+        text-align: center;
+        color: $text-color;
+        margin-top: 30px;
+    }
+    &__paragraph{
+        font-family: $roboto-font;
+        font-size: 15px;
+        color: $paragraph-color;
+        text-align: center;
+    }
+}
+hr{
+    margin-top: 80px;
+}

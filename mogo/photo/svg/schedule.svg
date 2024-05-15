@@ -1,0 +1,15 @@
+<svg width="37.000000" height="37.000000" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip4_15">
+			<rect id="bar-graph 1" width="37.000000" height="37.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="bar-graph 1" width="37.000000" height="37.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip4_15)">
+		<path id="Vector" d="M34.74 14.76L28.23 14.76L28.23 34.83L26.07 34.83L26.07 19.49L19.56 19.49L19.56 34.83L17.39 34.83L17.39 15.33L10.89 15.33L10.89 34.83L8.76 34.83L8.76 24.02L2.25 24.02L2.25 34.83L0 34.83L0 37L37 37L37 34.83L34.74 34.83L34.74 14.76ZM6.59 26.19L6.59 28.35L4.42 28.35L4.42 26.19L6.59 26.19ZM4.42 34.83L4.42 30.52L6.59 30.52L6.59 34.83L4.42 34.83ZM15.22 17.5L15.22 19.67L13.06 19.67L13.06 17.5L15.22 17.5ZM13.06 34.83L13.06 21.84L15.22 21.84L15.22 34.83L13.06 34.83ZM23.9 21.66L23.9 23.82L21.73 23.82L21.73 21.66L23.9 21.66ZM21.73 34.83L21.73 25.99L23.9 25.99L23.9 34.83L21.73 34.83ZM32.57 16.93L32.57 19.1L30.4 19.1L30.4 16.93L32.57 16.93ZM30.4 34.83L30.4 21.27L32.57 21.27L32.57 34.83L30.4 34.83Z" fill="#95E1D3" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M30.51 0L30.51 2.16L33.29 2.16L23.3 12.15L15.03 3.88L0 18.9L1.54 20.44L15.03 6.94L23.3 15.22L34.83 3.7L34.83 6.49L37 6.49L37 0L30.51 0Z" fill="#95E1D3" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
