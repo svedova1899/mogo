@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 70px;
-    margin-left: 3px;
     margin-top: 65px;
     &__title{
         font-family: $montserrat-font;
@@ -16,5 +15,12 @@
         margin-left: 50px;
         margin-top: 19px;
         color: $paragraph-color;
+    }
+}
+@media (max-width: 480px){
+    .main-list{
+        margin-left: 0;
+        padding-left: 0;
+        gap: 20px;
     }
 }

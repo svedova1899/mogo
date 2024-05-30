@@ -24,3 +24,20 @@
 hr{
     margin-top: 80px;
 }
+@media (max-width: 480px){
+    .our-team-list{
+        display: block;
+        &__item{
+            width: 320px;
+        }
+        &__img{
+            width: 320px;
+        }
+        &__paragraph{
+            margin-bottom: 40px;
+        }
+    }
+    .our-team-paragraph{
+        margin-bottom: 40px;
+    }
+}

@@ -20,17 +20,28 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="logo-div"><a href="index.html" class="logo-div__link"><span
-                        class="logo-div__span">MoGo</span></a></div>
-            <nav class="header-nav">
-                <ul class="header-list flex">
-                    <li class="header-list__item"><a href="index.html" class="header-list__link active">ABOUT</a></li>
-                    <li class="header-list__item"><a href="index.html" class="header-list__link">SERVICE</a></li>
-                    <li class="header-list__item"><a href="index.html" class="header-list__link">WORK</a></li>
-                    <li class="header-list__item"><a href="index.html" class="header-list__link">BLOG</a></li>
-                    <li class="header-list__item"><a href="index.html" class="header-list__link">CONTACT</a></li>
-                </ul>
-            </nav>
+            <div class="mobile-container-flex">
+                <div class="logo-div"><a href="index.html" class="logo-div__link"><span
+                            class="logo-div__span">MoGo</span></a></div>
+                <nav class="header-nav">
+                    <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+
+                    <ul class="menu">
+                        <li><a href="" class="link">ABOUT</a></li>
+                        <li><a href="" class="link">SERVICE</a></li>
+                        <li><a href="" class="link">WORK</a></li>
+                        <li><a href="" class="link">BLOG</a></li>
+                        <li><a href="" class="link">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main class="main">
@@ -83,17 +94,52 @@
             <p class="our-team-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                 laboris nisi ut aliquip ex ea commodo consequat. </p>
-                <ul class="our-team-list flex">
-                    <li class="our-team-list__item"><img src="photo/photo/first-man.png" alt="man" class="our-team-list__img"><h2 class="our-team-list__title">Matthew Dix</h2><p class="our-team-list__paragraph">Graphic Design</p></li>
-                    <li class="our-team-list__item"><img src="photo/photo/second-man.png" alt="man" class="our-team-list__img"><h2 class="our-team-list__title">Christopher Campbell</h2><p class="our-team-list__paragraph">Branding/UX design</p></li>
-                    <li class="our-team-list__item"><img src="photo/photo/third-man.png" alt="man" class="our-team-list__img"><h2 class="our-team-list__title">Michael Fertig </h2><p class="our-team-list__paragraph">Developer</p></li>
-                </ul>
-                <hr>
+            <ul class="our-team-list flex">
+                <li class="our-team-list__item"><img src="photo/photo/first-man.png" alt="man"
+                        class="our-team-list__img">
+                    <h2 class="our-team-list__title">Matthew Dix</h2>
+                    <p class="our-team-list__paragraph">Graphic Design</p>
+                </li>
+                <li class="our-team-list__item"><img src="photo/photo/second-man.png" alt="man"
+                        class="our-team-list__img">
+                    <h2 class="our-team-list__title">Christopher Campbell</h2>
+                    <p class="our-team-list__paragraph">Branding/UX design</p>
+                </li>
+                <li class="our-team-list__item"><img src="photo/photo/third-man.png" alt="man"
+                        class="our-team-list__img">
+                    <h2 class="our-team-list__title">Michael Fertig </h2>
+                    <p class="our-team-list__paragraph">Developer</p>
+                </li>
+            </ul>
+            <hr>
         </section>
     </main>
     <footer class="footer container">
-        <p class="footer-paragraph">© 2016 MoGo free PSD template by <span class="footer-paragraph__span">Laaqiq</span></p>
+        <p class="footer-paragraph">© 2016 MoGo free PSD template by <span class="footer-paragraph__span">Laaqiq</span>
+        </p>
     </footer>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                <path fill-rule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clip-rule="evenodd"></path>
+            </svg>
+        </button>
+
+        <ul class="mobile-menu">
+            <li><a href="" class="link">ABOUT</a></li>
+            <li><a href="" class="link">SERVICE</a></li>
+            <li><a href="" class="link">WORK</a></li>
+            <li><a href="" class="link">BLOG</a></li>
+            <li><a href="" class="link">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+    <script defer src="mobile-menu.js"></script>
 </body>
 
 </html>

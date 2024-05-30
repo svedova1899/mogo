@@ -3,3 +3,9 @@
     margin: 0 auto;
     // border: 2px solid red;
 }
+@media (max-width: 480px){
+    .container{
+        width: 320px;
+        outline: 2px solid red;
+    }
+}
